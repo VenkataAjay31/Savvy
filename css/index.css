@@ -5,7 +5,7 @@
 
 /* Background */
 .main{
-    width: 100%;
+    width: 500%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
     background-position: center;
     background-size: cover;
