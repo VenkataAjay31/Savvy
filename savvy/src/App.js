@@ -1,12 +1,12 @@
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
-import LoginPage from './Pages/LoginPage/LoginPage';
+import QuickSigIn from './Components/QuickSigIn/QuickSigIn';
+import Login
 
 function App() {
   return (
     <>
-      <Navbar/>
-      <LoginPage />
+      <QuickSigIn/>
     </>
   );
 }
