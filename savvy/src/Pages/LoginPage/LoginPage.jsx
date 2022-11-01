@@ -1,4 +1,5 @@
 import React from 'react'
+import './Logi.css'
 
 export default function LoginPage() {
   return (
