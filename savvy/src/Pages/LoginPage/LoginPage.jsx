@@ -1,40 +1,45 @@
-import React from 'react';
+import React from 'react'
+import './LoginPage.css'
+import Illu from '../../Assets/Login-illu.jpg'
+import QuickSigIn from '../../Components/QuickSigIn/QuickSigIn'
 
 export default function LoginPage() {
   return (
-    <div>
-    <form>
-        <div class="form-outline mb-4">
-        <label class="form-label" for="form2Example1">Email address</label>
-        <input type="email" placeholder="Enter E-mail" id="form2Example1" class="form-control" />
-        </div>
+    <div className='form-img'>
+        <div className='form-comp'>
+        <form>
+            <p className='login'>Log In</p>
+            <div className='form-comp1'>
+            <div className="form-outline mb-4">
+            <input type="email" placeholder="Enter email" id="form2Example1" className="form-control" />
+            </div>
 
-        <div class="form-outline mb-4">
-        <label class="form-label" for="form2Example2">Password</label>
-        <input type="password" placeholder="Enter Password" id="form2Example2" class="form-control" />
-        </div>
+            <div className="form-outline mb-4">
+            <input type="password" placeholder="Enter Password" id="form2Example2" className="form-control" />
+            </div>
 
-        <div class="row mb-4">
-            <div class="col d-flex justify-content-center">
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
-                <label class="form-check-label" for="form2Example31"> Remember me </label>
+            <div className="row fg-pw mb-4">
+                <div className="col">
+                <a href="#!">Forgot password?</a>
+                </div>
             </div>
             </div>
-        <div class="col">
-        <a href="#!">Forgot password?</a>
+
+            <button type="button" className="btn btn-primary btn-block mb-4">LOGIN</button>
+            <div className="text-center">
+                <p>Don't have an account? <a href="#!">Register Now</a></p>
+            </div>
+        </form>
+        </div>
+
+        <div className='lg-img'>
+            <img src={Illu} alt="Login-img" />
+        </div>
+        <div className='quick-sg'>
+            <QuickSigIn/>
         </div>
     </div>
 
-
-    <button type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
-
-
-    <div class="text-center">
-        <p>Don't have an account? <a href="#!">Register Now</a></p>
-    </div>
-    </form>
-    </div>
   )
 }
 

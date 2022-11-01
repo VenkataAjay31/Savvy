@@ -17,7 +17,6 @@ export default function QuickSigIn() {
                    <div > <img src={fb} alt="" /> </div>
                    <div > <img src={google} alt="" /> </div>
                    <div > <img src={apple} alt="" /> </div>
-
                 </div>
             </div>
         </>
