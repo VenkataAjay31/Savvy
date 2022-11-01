@@ -1,13 +1,17 @@
 import './App.css';
-import Navbar from './Components/Navbar/Navbar';
 import QuickSigIn from './Components/QuickSigIn/QuickSigIn';
 import LoginPage from './Pages/LoginPage/LoginPage';
+import { BrowserRouter,Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <>
-      <QuickSigIn/>
-      <LoginPage/>
+      <BrowserRouter>
+        <Routes>
+          <Route exact path='/Login' element={LoginPage}/>
+        </Routes>
+      </BrowserRouter>
+
     </>
   );
 }
