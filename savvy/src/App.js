@@ -5,16 +5,8 @@ import { BrowserRouter,Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route exact path='/Login' element={<LoginPage/>}/>
-        </Routes>
-      </BrowserRouter>
-
-    </>
+    <LoginPage />
   );
 }
-
 
 export default App;
