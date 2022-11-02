@@ -3,6 +3,7 @@ import './LoginPage.css'
 import Illu from '../../Assets/Login-illu.jpg'
 import QuickSigIn from '../../Components/QuickSigIn/QuickSigIn'
 
+
 export default function LoginPage() {
   return (
     <div className='form-img'>
