@@ -11,13 +11,17 @@ body{
     margin-bottom: 15%;
 }
 
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .input-container input{
-    position: absolute;
     width: 40px;
     height: 40px;
-    display: flex;
     top: 40%;
-}    
+    margin: 3%;
+}
 
 .form-comp{
     position: absolute;
@@ -29,7 +33,7 @@ a{
 }
 
 .btn-primary{
-    margin-top: 55%;;
+    margin-top: 45%;;
     font-weight: 700;
     font-size: 19px;
     color: #FFFFFF;
@@ -46,14 +50,14 @@ a{
 
 .lg-img{
     position: absolute;
-    left: 750px;
-    top: 20px;
+    left: 700px;
+    top: 30px;
 }
 
 .terms{
     position: absolute;
     display: flex;
-    padding: 400px 0 0 100px;
+    padding: 350px 0 0 100px;
 }
 
 span{
