@@ -3,8 +3,8 @@ body{
     position: absolute;
     width: auto;
     height: auto;
-    left: 100px;
-    top: 112px;
+    left: 8%;
+    top: 20%;
 }
 
 .login{
@@ -69,17 +69,12 @@ a{
 .btn-primary{
     font-weight: 700;
     font-size: 19px;
-    line-height: 35px;
     color: #FFFFFF;
     flex: none;
-    order: 0;
-    flex-grow: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 10px 130px;
-    gap: 10px;
     width: 329px;
     height: 55px;
     background: linear-gradient(90deg, #1D976C 0%, #93F9B9 100%);
@@ -89,11 +84,10 @@ a{
 
 .lg-img{
     position: absolute;
-    width: 666px;
-    height: 492px;
-    left: 650px;
+    left: 750px;
+    top: 15%;
 }
 
-.quick-sg{
-    
+span{
+    color: red;
 }
