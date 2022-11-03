@@ -15,11 +15,10 @@ export default function Password() {
             <input type="text" class="m-1 text-center form-control rounded" maxlength="1"/>
             <input type="text" class="m-1 text-center form-control rounded" maxlength="1"/>
             <input type="text" class="m-1 text-center form-control rounded" maxlength="1"/>
-            <input type="text" class="m-1 text-center form-control rounded" maxlength="1"/>
             </div>
 
             <button type="button" className="btn btn-primary btn-block mb-4">REGISTER</button>
-            
+
         </div>
         <div className="terms">
             <p>Didn't receive code? <a href="#!">Resend OTP</a></p>

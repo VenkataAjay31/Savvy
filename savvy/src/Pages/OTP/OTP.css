@@ -29,6 +29,7 @@ a{
 }
 
 .btn-primary{
+    margin-top: 55%;;
     font-weight: 700;
     font-size: 19px;
     color: #FFFFFF;
@@ -40,6 +41,7 @@ a{
     background: linear-gradient(90deg, #1D976C 0%, #93F9B9 100%);
     border-radius: 4px;
     border: none;
+
 }
 
 .lg-img{
@@ -49,11 +51,9 @@ a{
 }
 
 .terms{
-    font-size: 0.9rem;
+    position: absolute;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 5% 0 5% 0;
+    padding: 400px 0 0 100px;
 }
 
 span{
