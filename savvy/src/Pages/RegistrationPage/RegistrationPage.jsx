@@ -12,7 +12,7 @@ export default function RegistrationPage() {
             <div className='form-comp1'>
 
             <div className="form-outline mb-4">
-            <input type="text" id="fname" name="firstname" placeholder="Your name.." className="form-control" />
+            <input type="text" id="fname" name="firstname" placeholder="Full Name" className="form-control" />
             </div>
 
             <div className="form-outline mb-4">
