@@ -1,6 +1,6 @@
 import React from 'react'
-import './OTP.css'
-import Illu from '../../Assets/OTP.svg'
+import './Register.css'
+import Illu from '../../Assets/register.svg'
 import QuickSigIn from '../../Components/QuickSigIn/QuickSigIn'
 
 export default function Register() {
@@ -41,4 +41,3 @@ export default function Register() {
 
   )
 }
-

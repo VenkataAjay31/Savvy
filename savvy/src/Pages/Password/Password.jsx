@@ -8,7 +8,7 @@ export default function Password() {
     <div className='form-img'>
         <div className='form-comp'>
         <form>
-            <p className='login'>Creat new password</p>
+            <p className='login'>Create new password</p>
             <p className='des'>Your password must more than 6 characters.</p>
             <div className='form-comp1'>
 
