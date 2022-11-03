@@ -4,29 +4,34 @@ import Illu from '../../Assets/OTP.svg'
 
 export default function Password() {
   return (
-    <div className='form-img'>
-        <div className='form-comp'>
+    <div className='form-img '>
+      <div className='form-comp '>
 
-            <p className='login'>OTP Verification</p>
-            <p className='des'>Enter the verification code we just sent on your email/Mobile no.</p>
-
-            <div class="input-container d-flex flex-row justify-content-center mt-2 boxes">
-              <input type="text" class="m-1 text-center form-control rounded" maxlength="1"/>
-              <input type="text" class="m-1 text-center form-control rounded" maxlength="1"/>
-              <input type="text" class="m-1 text-center form-control rounded" maxlength="1"/>
-              <input type="text" class="m-1 text-center form-control rounded" maxlength="1"/>
-            </div>
-
-            <button type="button" className="btn btn-primary btn-block mb-4">REGISTER</button>
-
+        <div className="otp-text">
+          <p className='login'>OTP Verification</p>
+          <p className='des'>Enter the verification code we just sent on your email/Mobile no.</p>
         </div>
+
+        <div class="input-container  ">
+          <input type="text" class="m-1 text-center" maxlength="1" value={4} />
+          <input type="text" class="m-1 text-center" maxlength="1" value={2} />
+          <input type="text" class="m-1 text-center" maxlength="1" value={6} />
+          <input type="text" class="m-1 text-center" maxlength="1" />
+        </div>
+
+        <button type="button" className="btn btn-primary btn-block mb-4">REGISTER</button>
+
+
         <div className="terms">
-            <p>Didn't receive code? <a href="#!">Resend OTP</a></p>
+          <p>Didn't receive code? <a id='registerlink' href="#!">Resend OTP</a></p>
         </div>
+        
+      </div>
 
-        <div className='lg-img'>
-            <img src={Illu} alt="Login-img" />
-        </div>
+
+      <div className='lg-img'>
+        <img src={Illu} alt="Login-img" />
+      </div>
 
     </div>
 

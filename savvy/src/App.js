@@ -8,6 +8,7 @@ import OTP from './Pages/OTP/OTP';
 
 function App() {
   return (
+    // <OTP/>
     <LoginPage/>
   );
 }
