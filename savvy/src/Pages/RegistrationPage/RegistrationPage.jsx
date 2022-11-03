@@ -47,6 +47,10 @@ export default function RegistrationPage() {
         <div className='lg-img'>
             <img src={Illu} alt="Login-img" />
         </div>
+
+        <div className='quick-sg'>
+            <QuickSigIn/>
+        </div>
     </div>
 
   )
