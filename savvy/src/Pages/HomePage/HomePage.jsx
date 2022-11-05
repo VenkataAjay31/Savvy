@@ -5,6 +5,8 @@ import AppStore from '../../Assets/Images/AppStore.png'
 import GoogleStore from '../../Assets/Images/GooglePlay.png'
 import illu2 from '../../Assets/Images/illu2.png'
 import features from '../../Assets/Images/features.png'
+import ReactDOM from 'react-dom'
+import Favicon from 'react-favicon'
 
 export default function HomePage() {
   return (
@@ -49,6 +51,47 @@ export default function HomePage() {
 
         <img src={features} alt="" />
 
+      </section>
+
+
+      <section className='Footer' >
+        <footer className="footer">
+        <div className="container">
+          <div className="row">
+
+            <div class="footer-col">
+              <h4>Company</h4>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Affiliate Program</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-col">
+              <h4>Get Help</h4>
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Booking Status</a></li>
+                <li><a href="#">Payment Options</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-col">
+              <h4>Follow Us</h4>
+              <div className="social-links">
+                <Favicon url='http://oflisback.github.io/react-favicon/img/github.ico' />
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </footer>
       </section>
     </>
   )
