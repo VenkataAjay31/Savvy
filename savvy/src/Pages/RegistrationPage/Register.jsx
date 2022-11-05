@@ -2,6 +2,7 @@ import React from 'react'
 import './Register.css'
 import Illu from '../../Assets/register.svg'
 import QuickSigIn from '../../Components/QuickSigIn/QuickSigIn'
+import { Link } from 'react-router-dom'
 
 export default function Register() {
   return (
@@ -26,7 +27,7 @@ export default function Register() {
             </div>
             </div>
 
-            <button type="button" className="btn btn-primary btn-block mb-4">REGISTER</button>
+            <button type="button" className="btn btn-primary btn-block mb-4"> <Link to='/otp' > REGISTER </Link></button>
             <div className="text-center">
                 <p>Don't have an account? <a href="#!">GET OTP</a></p>
             </div>

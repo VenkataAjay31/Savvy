@@ -2,6 +2,7 @@ import React from 'react'
 import './LoginPage.css'
 import Illu from '../../Assets/Login-illu.jpg'
 import QuickSigIn from '../../Components/QuickSigIn/QuickSigIn'
+import { Link } from 'react-router-dom'
 
 
 export default function LoginPage() {
@@ -26,9 +27,9 @@ export default function LoginPage() {
                         </div>
                     </div>
 
-                    <button type="button" className="btn btn-primary btn-block mb-4">LOGIN</button>
+                    <button type="button" className="btn btn-primary btn-block mb-4">  LOGIN </button>
                     <div className="text-center">
-                        <p>Don't have an account? <a id='registerlink' href="#!">Register Now</a></p>
+                        <p>Don't have an account? <a id='registerlink' href="#!"> <Link to="/registration" >Register Now </Link></a></p>
                     </div>
                 </form>
                     <QuickSigIn/>

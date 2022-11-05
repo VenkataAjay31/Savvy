@@ -32,8 +32,8 @@
     font-family: 'Mukta';
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 16px;
     line-height: 40px;
-
+    text-decoration: none;
     color: #EA384D;
 }

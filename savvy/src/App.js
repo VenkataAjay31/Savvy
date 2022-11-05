@@ -7,11 +7,20 @@ import Password from './Pages/Password/Password';
 import OTP from './Pages/OTP/OTP';
 import HomePage from './Pages/HomePage/HomePage';
 
+
 function App() {
   return (
-    // <OTP/>
-    // <LoginPage/>
-    <HomePage/>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route exact path='/' element={<HomePage/>} ></Route>
+          <Route exact path='/login' element={<LoginPage/>} ></Route>
+          <Route exact path='/registration' element={<RegistrationPage/>} ></Route>
+          <Route exact path='/password' element={<Password/>} ></Route>
+          <Route exact path='/otp' element={<OTP/>} ></Route>
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
