@@ -6,7 +6,7 @@ import QuickSigIn from '../../Components/QuickSigIn/QuickSigIn'
 export default function RegistrationPage() {
   return (
     <div className='form-img'>
-        <div className='form-comp'>
+        <div className='form-comp-registration'>
         <form>
             <p className='login'>Register</p>
             <div className='form-comp1'>
@@ -29,7 +29,7 @@ export default function RegistrationPage() {
 
             <div className="row fg-pw mb-4">
                 <div className="col">
-                <a href="#!">Forgot password?</a>
+                <a id='registerlink' href="#!">Forgot password?</a>
                 </div>
             </div>
             </div>
@@ -39,7 +39,6 @@ export default function RegistrationPage() {
             </div>
             <button type="button" className="btn btn-primary btn-block mb-4">REGISTER</button>
             <div className="text-center">
-                <p>Don't have an account? <a href="#!">Register Now</a></p>
             </div>
         </form>
         <QuickSigIn/>
