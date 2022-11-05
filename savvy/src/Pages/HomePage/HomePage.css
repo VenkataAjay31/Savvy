@@ -1,4 +1,7 @@
-
+.services {
+    overflow-x: hidden;
+    height: max-content;
+}
 
 .hero-text {
     font-family: 'Mukta';
@@ -10,19 +13,19 @@
     color: white;
 }
 
-.downloads > *:not(:last-child) {
-    
+.downloads>*:not(:last-child) {
+
     margin-right: 32px;
 
 }
 
-.hero-section-content{
+.hero-section-content {
     position: absolute;
     bottom: 60px;
     left: 90px;
 }
 
-.hero-section{
+.hero-section {
     background-image: url(../../Assets/Images/bg.png);
     background-size: cover;
     width: 96%;
@@ -31,7 +34,7 @@
     /* overflow: hidden; */
 }
 
-.heroSection{
+.heroSection {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,17 +42,17 @@
     height: 89vh;
 }
 
-.aboutUs{
+.aboutUs {
     justify-content: space-between;
     align-items: flex-start;
     padding: 20px 0;
 }
 
-.aboutUs > img{
+.aboutUs>img {
     margin-left: 32px;
 }
 
-.aboutUs-content{
+.aboutUs-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,7 +60,7 @@
     padding: 0 32px;
 }
 
-.aboutUs-content > div{
+.aboutUs-content>div {
     width: 60%;
     display: flex;
     justify-content: space-evenly;
@@ -65,18 +68,19 @@
     flex-direction: column;
 }
 
-.aboutUs-content > div > p:nth-child(1){
-
+.subtitle {
+    width: 80%;
+    text-align: start;
     font-family: 'Mukta';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 40px;
     /* identical to box height */
-    
-    
+
+
     /* red gradient */
-    
+
     background: linear-gradient(90deg, #D31027 0%, #EA384D 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -85,14 +89,158 @@
 
 }
 
-.aboutUs-content > div > p:nth-child(2){
+.aboutUs-content>div>p:nth-child(2) {
     font-family: 'Mukta';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
 
-/* Black */
+    /* Black */
 
-color: #585858;
+    color: #585858;
+}
+
+.services-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 2px solid #585858;
+    border-radius: 4px;
+    margin-top: 32px;
+}
+
+
+.input-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    color: #585858;
+}
+
+.input-items>* {
+    margin-right: 16px;
+}
+
+.input-items>input {
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height */
+    padding: 12px 10px;
+    border: none;
+    outline: none;
+    color: rgba(88, 88, 88, 0.5);
+}
+
+.sports {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: max-content;
+    position: relative;
+    left: 8%;
+    padding: 0px 32px;
+    margin-top: 32px;
+    overflow-x: scroll;
+    width: 100vw;
+}
+
+.sports::-webkit-scrollbar {
+    display: none;
+}
+
+.sports-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 64px;
+}
+
+.sports-items>div {
+
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sports-items>div>img {
+    width: 40px;
+    height: 40px;
+    opacity: 0.8;
+}
+
+.sports-items>span {
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height */
+    margin-top: 10px;
+
+    /* Black */
+
+    color: #585858;
+}
+
+.turf-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    left: 18%;
+    padding: 0px 32px;
+    margin-top: 40px;
+}
+
+.turf {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+    margin-right: 100px;
+}
+
+.turf>* {
+    margin-bottom: 12px;
+}
+
+.top-part-turf,
+.bottom-part-turf {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.top-part-turf>div>* {
+    margin: 0;
+
+}
+
+.top-part-turf>div:first-child >*:last-child{
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height */
+    color: rgba(234, 56, 77, 0.4);
+}
+
+.distance > span {
+    color: #585858;
 }

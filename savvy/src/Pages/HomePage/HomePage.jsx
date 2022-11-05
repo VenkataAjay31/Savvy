@@ -4,7 +4,16 @@ import Navbar from '../../Components/Navbar/Navbar'
 import AppStore from '../../Assets/Images/AppStore.png'
 import GoogleStore from '../../Assets/Images/GooglePlay.png'
 import illu2 from '../../Assets/Images/illu2.png'
+import location from '../../Assets/Icons/location.svg'
+import grass from '../../Assets/Icons/Grass.svg'
+import calender from '../../Assets/Icons/calendar.svg'
+import navigation from '../../Assets/Icons/navigation.svg'
+import down from '../../Assets/Icons/down.svg'
 import features from '../../Assets/Images/features.png'
+import cricket from '../../Assets/Icons/cricket.png'
+import bg2 from '../../Assets/Images/bg2.png'
+import sportsImgs from '../../Assets/Images/sport-icons.png'
+import stars from '../../Assets/Images/starts.png'
 
 export default function HomePage() {
   return (
@@ -24,7 +33,171 @@ export default function HomePage() {
           </div>
         </section>
       </div>
-      
+
+      <section className="services ">
+
+        <div className="services-input ">
+
+          <div className=' input-items '>
+            <img src={location} alt="" />
+            <input type="text" placeholder='Select Location...' />
+            <img src={down} alt="" />
+          </div>
+
+          <div className=' input-items '>
+            <iag src={calender} alt="" />
+            <input type="text" placeholder='Select Location...' />
+            <img src={down} alt="" />
+          </div>
+
+          <div className=' input-items '>
+            <img src={grass} alt="" />
+            <input type="text" placeholder='Select Location...' />
+            <img src={down} alt="" />
+          </div>
+
+        </div>
+
+        <div className="sports ">
+
+          <div className="sports-items">
+            <div><img src={cricket} alt="" /></div>
+            <span>Cricket</span>
+          </div>
+
+          <div className="sports-items">
+            <div><img src={cricket} alt="" /></div>
+            <span>Cricket</span>
+          </div>
+
+          <div className="sports-items">
+            <div><img src={cricket} alt="" /></div>
+            <span>Cricket</span>
+          </div>
+
+          <div className="sports-items">
+            <div><img src={cricket} alt="" /></div>
+            <span>Cricket</span>
+          </div>
+
+          <div className="sports-items">
+            <div><img src={cricket} alt="" /></div>
+            <span>Cricket</span>
+          </div>
+
+          <div className="sports-items">
+            <div><img src={cricket} alt="" /></div>
+            <span>Cricket</span>
+          </div>
+
+          <div className="sports-items">
+            <div><img src={cricket} alt="" /></div>
+            <span>Cricket</span>
+          </div>
+
+          <div className="sports-items">
+            <div><img src={cricket} alt="" /></div>
+            <span>Cricket</span>
+          </div>
+
+          <div className="sports-items">
+            <div><img src={cricket} alt="" /></div>
+            <span>Cricket</span>
+          </div>
+
+          <div className="sports-items">
+            <div><img src={cricket} alt="" /></div>
+            <span>Cricket</span>
+          </div>
+
+          <div className="sports-items">
+            <div><img src={cricket} alt="" /></div>
+            <span>Cricket</span>
+          </div>
+
+
+        </div>
+
+        <p className="subtitle">Nearby Turfs</p>
+
+        <div className="turf-container ">
+
+
+          <div className="turf">
+
+            <div className="top-part-turf ">
+              <div>
+                <h1>Nex Arena</h1>
+                <p>Dummy road, New Delhi</p>
+              </div>
+
+              <div className="distance">
+                <img src={navigation} alt="" />
+                <span>0.5 KM</span>
+              </div>
+
+            </div>
+
+            <img src={bg2} alt="" />
+
+            <div className="bottom-part-turf ">
+              <img src={sportsImgs} alt="" />
+              <img src={stars} alt="" />
+            </div>
+          </div>
+
+          <div className="turf">
+
+            <div className="top-part-turf ">
+              <div>
+                <h1>Nex Arena</h1>
+                <p>Dummy road, New Delhi</p>
+              </div>
+
+              <div className="distance">
+                <img src={navigation} alt="" />
+                <span>0.5 KM</span>
+              </div>
+
+            </div>
+
+            <img src={bg2} alt="" />
+
+            <div className="bottom-part-turf ">
+              <img src={sportsImgs} alt="" />
+              <img src={stars} alt="" />
+            </div>
+          </div>
+
+          <div className="turf">
+
+            <div className="top-part-turf ">
+              <div>
+                <h1>Nex Arena</h1>
+                <p>Dummy road, New Delhi</p>
+              </div>
+
+              <div className="distance">
+                <img src={navigation} alt="" />
+                <span>0.5 KM</span>
+              </div>
+
+            </div>
+
+            <img src={bg2} alt="" />
+
+            <div className="bottom-part-turf ">
+              <img src={sportsImgs} alt="" />
+              <img src={stars} alt="" />
+            </div>
+          </div>
+
+
+        </div>
+
+      </section>
+
+
       <section className='aboutUs ' >
 
         <div className="aboutUs-content ">
