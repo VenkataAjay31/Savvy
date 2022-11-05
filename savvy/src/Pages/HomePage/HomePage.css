@@ -2,6 +2,7 @@
     overflow-x: hidden;
     height: max-content;
 }
+
 .download-button {
     align-items: center;
     margin: 5% 3% 5% 0;
@@ -14,11 +15,12 @@
     border-color: #343a40;
     font-size: 1.3rem;
 }
-.downloads{
+
+.downloads {
     align-items: center;
 }
 
-.btn-and{
+.btn-and {
     color: #f8f9fa;
     background-color: transparent;
     background-image: none;
@@ -67,7 +69,7 @@
 .aboutUs {
     justify-content: space-between;
     align-items: flex-start;
-    padding: 70px 0;
+    padding: 40px 0;
 }
 
 .aboutUs>img {
@@ -90,23 +92,33 @@
     flex-direction: column;
 }
 
+.aboutUs-content>div > * {
+    margin-bottom: 12px;
+}
+
+.aboutUs-content>div > div:nth-child(3) {
+
+    margin-top: 32px;
+
+}
+
 .subtitle {
-    width: 80%;
+    width: 100%;
     text-align: start;
     font-family: 'Mukta';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 40px;
-    /* identical to box height */
-
-
-    /* red gradient */
-
     background: linear-gradient(90deg, #D31027 0%, #EA384D 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+.nearby-turf{
+    padding-left: 56px;
+    margin-top: 40px;
 }
 
 .aboutUs-content>div>p:nth-child(2) {
@@ -136,7 +148,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8px 16px;
+    padding: 8px 0px 8px 16px;
     color: #585858;
 }
 
@@ -153,20 +165,21 @@
     /* identical to box height */
     padding: 12px 10px;
     border: none;
+    width: 50%;
     outline: none;
     color: rgba(88, 88, 88, 0.5);
 }
 
 .sports {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: row;
     width: max-content;
     position: relative;
-    left: 8%;
-    padding: 0px 32px;
-    margin-top: 32px;
+    left: 32px;
+    padding: 16px;
+    margin-top: 56px;
     overflow-x: scroll;
     width: 100vw;
 }
@@ -180,7 +193,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-right: 64px;
+    margin-right: 80px;
 }
 
 .sports-items>div {
@@ -214,15 +227,16 @@
     color: #585858;
 }
 
-.turf-container{
+.turf-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: row;
     position: relative;
-    left: 18%;
-    padding: 0px 32px;
+    left: 32px;
+    padding: 0px 56px;
     margin-top: 40px;
+    width: 100vw;
 }
 
 .turf {
@@ -251,7 +265,7 @@
 
 }
 
-.top-part-turf>div:first-child >*:last-child{
+.top-part-turf>div:first-child>*:last-child {
     font-family: 'Mukta';
     font-style: normal;
     font-weight: 500;
@@ -261,89 +275,157 @@
     color: rgba(234, 56, 77, 0.4);
 }
 
-.distance > span {
+.distance>span {
     color: #585858;
-color: #585858;
+    color: #585858;
 }
 
 
 /*Footer*/
-body{
-	line-height: 1.5;
+body {
+    line-height: 1.5;
 }
-*{
-	margin:0;
-	padding:0; 
- 	box-sizing: border-box;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.footer{
+
+.footer {
     width: 100% !important;
     margin-top: 5%;
 }
-.row{
-	display: flex;
-	flex-wrap: wrap;
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
-ul{
-	list-style: none;
+
+ul {
+    list-style: none;
 }
+
 .footer {
     background-color: #24262b;
     padding: 70px 50px;
     width: 100%;
 }
-.footer-col{
-   width: 25%;
-   padding: 0 15px;
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
 }
-.footer-col h4{
-	font-size: 18px;
-	color: #ffffff;
-	text-transform: capitalize;
-	margin-bottom: 35px;
-	font-weight: 500;
-	position: relative;
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
 }
-.footer-col h4::before{
-	content: '';
-	position: absolute;
-	left:0;
-	bottom: -10px;
-	background-color: #e91e63;
-	height: 2px;
-	box-sizing: border-box;
-	width: 50px;
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
 }
-.footer-col ul li:not(:last-child){
-	margin-bottom: 10px;
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
 }
-.footer-col ul li a{
-	font-size: 16px;
-	text-transform: capitalize;
-	color: #ffffff;
-	text-decoration: none;
-	font-weight: 300;
-	color: #bbbbbb;
-	display: block;
-	transition: all 0.3s ease;
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
 }
-.footer-col ul li a:hover{
-	color: #ffffff;
-	padding-left: 8px;
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
 }
-.footer-col .social-links a{
-	display: inline-block;
-	height: 40px;
-	width: 40px;
-	background-color: rgba(255,255,255,0.2);
-	margin:0 10px 10px 0;
-	text-align: center;
-	line-height: 50px;
-	border-radius: 50%;
-	color: #ffffff;
-	transition: all 0.5s ease;
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
 }
-.footer-col .social-links a:hover{
-	color: #24262b;
-	background-color: #ffffff;
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 32px;
+}
+
+.feature-items {
+    display: block;
+    width: 23%;
+}
+
+.feature-top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.feature-top>img {
+    height: 28px;
+    width: 28px;
+    margin-right: 8px;
+}
+
+.feature-top>span {
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    /* identical to box height */
+    /* primary red */
+
+    color: #EA384D;
+}
+
+.feature-items>p {
+
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+
+    /* Black */
+    padding: 0 8px;
+    color: #585858;
+
+
 }

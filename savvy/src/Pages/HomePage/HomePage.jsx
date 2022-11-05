@@ -21,6 +21,10 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import shield from '../../Assets/Icons/shield.svg'
+import mobile from '../../Assets/Icons/mobile.svg'
+import desktop from '../../Assets/Icons/desktop.svg'
+
 
 export default function HomePage() {
   return (
@@ -52,7 +56,7 @@ export default function HomePage() {
           </div>
 
           <div className=' input-items '>
-            <iag src={calender} alt="" />
+            <img src={calender} alt="" />
             <input type="text" placeholder='Select Location...' />
             <img src={down} alt="" />
           </div>
@@ -125,7 +129,7 @@ export default function HomePage() {
 
         </div>
 
-        <p className="subtitle">Nearby Turfs</p>
+        <p className="subtitle nearby-turf ">Nearby Turfs</p>
 
         <div className="turf-container ">
 
@@ -227,7 +231,41 @@ export default function HomePage() {
 
         </div>
 
-        <img src={features} alt="" />
+        <div className="features ">
+
+          <div className="feature-items ">
+            <div className="feature-top ">
+              <img src={shield} alt="" />
+              <span>Payment Security</span>
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis mollitia non quod </p>
+          </div>
+
+          <div className="feature-items ">
+            <div className="feature-top ">
+              <img src={location} alt="" />
+              <span>Search Location</span>
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis mollitia non quod </p>
+          </div>
+
+          <div className="feature-items ">
+            <div className="feature-top ">
+              <img src={mobile} alt="" />
+              <span>Online Booking</span>
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis mollitia non quod </p>
+          </div>
+
+          <div className="feature-items ">
+            <div className="feature-top ">
+              <img src={desktop} alt="" />
+              <span>Device Compatibilty </span>
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis mollitia non quod </p>
+          </div>
+
+        </div>
 
       </section>
 
