@@ -14,8 +14,10 @@ import cricket from '../../Assets/Icons/cricket.png'
 import bg2 from '../../Assets/Images/bg2.png'
 import sportsImgs from '../../Assets/Images/sport-icons.png'
 import stars from '../../Assets/Images/starts.png'
-import ReactDOM from 'react-dom'
 import Favicon from 'react-favicon'
+import AppleIcon from '@mui/icons-material/Apple';
+import AdbIcon from '@mui/icons-material/Adb';
+
 
 export default function HomePage() {
   return (
@@ -27,8 +29,8 @@ export default function HomePage() {
 
             <p className='hero-text ' > BOOK,PLAY & ENJOY </p>
             <div className="downloads">
-              <img src={AppStore} alt="" />
-              <img src={GoogleStore} alt="" />
+            <button type="button" class="btn download-button"><AppleIcon/> Download</button>
+            <button type="button" class="btn download-button"><AdbIcon/> Download</button>
 
             </div>
 

@@ -2,6 +2,28 @@
     overflow-x: hidden;
     height: max-content;
 }
+.download-button {
+    align-items: center;
+    margin: 5% 3% 5% 0;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+    font-size: 1.3rem;
+}
+.downloads{
+    align-items: center;
+}
+
+.btn-and{
+    color: #f8f9fa;
+    background-color: transparent;
+    background-image: none;
+    border-color: #f8f9fa;
+}
 
 .hero-text {
     font-family: 'Mukta';
@@ -85,8 +107,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
-
 }
 
 .aboutUs-content>div>p:nth-child(2) {
