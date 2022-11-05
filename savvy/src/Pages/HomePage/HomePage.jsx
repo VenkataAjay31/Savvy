@@ -17,7 +17,10 @@ import stars from '../../Assets/Images/starts.png'
 import Favicon from 'react-favicon'
 import AppleIcon from '@mui/icons-material/Apple';
 import AdbIcon from '@mui/icons-material/Adb';
-
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export default function HomePage() {
   return (
@@ -257,10 +260,10 @@ export default function HomePage() {
               <h4>Follow Us</h4>
               <div className="social-links">
                 <Favicon url='http://oflisback.github.io/react-favicon/img/github.ico' />
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><FacebookIcon/></a>
+                <a href="#"><TwitterIcon/></a>
+                <a href="#"><InstagramIcon/></a>
+                <a href="#"><LinkedInIcon/></a>
               </div>
             </div>
 

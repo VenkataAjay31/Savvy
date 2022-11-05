@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "mdb-react-ui-kit": "^5.0.0",
     "react-router-dom": "^6.4.2",
     "react-scripts": "^5.0.1"
