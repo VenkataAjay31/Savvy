@@ -27,6 +27,7 @@ import desktop from '../../Assets/Icons/desktop.svg'
 
 
 export default function HomePage() {
+
   return (
     <>
       <Navbar />
