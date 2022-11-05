@@ -5,11 +5,13 @@ import LoginPage from './Pages/LoginPage/LoginPage';
 import RegistrationPage from './Pages/RegistrationPage/RegistrationPage';
 import Password from './Pages/Password/Password';
 import OTP from './Pages/OTP/OTP';
+import HomePage from './Pages/HomePage/HomePage';
 
 function App() {
   return (
     // <OTP/>
-    <LoginPage/>
+    // <LoginPage/>
+    <HomePage/>
   );
 }
 
