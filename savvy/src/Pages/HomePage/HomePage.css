@@ -1,0 +1,98 @@
+
+
+.hero-text {
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 121.7%;
+    width: 60%;
+    color: white;
+}
+
+.downloads > *:not(:last-child) {
+    
+    margin-right: 32px;
+
+}
+
+.hero-section-content{
+    position: absolute;
+    bottom: 60px;
+    left: 90px;
+}
+
+.hero-section{
+    background-image: url(../../Assets/Images/bg.png);
+    background-size: cover;
+    width: 96%;
+    border-radius: 12px;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+.heroSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 89vh;
+}
+
+.aboutUs{
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 0;
+}
+
+.aboutUs > img{
+    margin-left: 32px;
+}
+
+.aboutUs-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 32px;
+}
+
+.aboutUs-content > div{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.aboutUs-content > div > p:nth-child(1){
+
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    /* identical to box height */
+    
+    
+    /* red gradient */
+    
+    background: linear-gradient(90deg, #D31027 0%, #EA384D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+}
+
+.aboutUs-content > div > p:nth-child(2){
+    font-family: 'Mukta';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+
+/* Black */
+
+color: #585858;
+}
